@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+body{
+ background: linear-gradient(to bottom right, #FF0808, #FF6767, #FF0808);
+ background-size: 100%; 
+ background-repeat: no-repeat;
+ height: 100vh;
+ overflow-y: scroll;
+ font-family: 'Fauna One', serif;
+ min-width: 800px;
+}
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
